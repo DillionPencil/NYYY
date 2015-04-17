@@ -52,7 +52,7 @@ while (st_time.getHours() != 22 || st_time.getMinutes() != 30){
     document.write("<tr class=\"data_line\">")
     document.write("<td class=\"time_range\">" + print_time_range(st_time, millisec) + "</td>")
     for (var i = 0 ; i < 2 ; ++i){
-	document.write("<td class=\"blank\" onclick=\"ClickChangeColor(this)\" onmouseover=\"MouseOverChangeColor(this)\" onmouseout=\"MouseOutChangeColor(this)\"></td>")
+	document.write("<td class=\"blank\" onclick=\"ClickChangeColor(this)\" onmouseover=\"MouseOverChangeColor(this)\" onmouseout=\"MouseOutChangeColor(this)\"><span><span></td>")
     }
     document.write("</tr>")
     millisec += 1800000
